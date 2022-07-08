@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home/home'
 import Podcast from './components/podcast/podcast';
 import Clips from './components/clips/clips';
+import Articles from './components/articles/articles';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/" element={<Home />} />
       <Route exact path="/podcast" element={<Podcast />}/>
       <Route exact path="/clips" element={<Clips />}/>
+      <Route exact path="/articles" element={<Articles />}/>
       </Routes>
       </BrowserRouter>
     </div>

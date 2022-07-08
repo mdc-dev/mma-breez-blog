@@ -12,7 +12,7 @@ const Nav = () => {
                 <li className="nav-item"><a href="/">Home</a></li>
                 <li className="nav-item"><a href="/podcast">Podcast</a></li>
                 <li className="nav-item"><a href="/clips">Videos</a></li>
-                <li className="nav-item">News</li>
+                <li className="nav-item"><a href="/articles">News</a></li>
                 <li className="nav-item">Contact</li>
             </ul>
             <ul className="social-icons">

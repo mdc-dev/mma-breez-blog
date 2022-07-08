@@ -1,0 +1,108 @@
+.article-container {
+    height: 92vh;
+    width: 100vw;
+    background-color: yellow;
+    display: inline-flex;
+    padding: auto;
+
+    .inner {
+        margin: auto;
+        height: 70%;
+        width: 70%; 
+        display: inline-flex;  
+        
+        
+        .others {
+            height: 100%;
+            width: 30%;
+            background-color: green;
+            position: relative;
+
+            .other-articles {
+                list-style: none;
+                display: flexbox;
+                flex-direction: column;
+                padding-left: 0;
+                height: 100%;
+                margin-top: 0;
+
+                .article {
+                    max-height: 32.9%;
+                    width: 100%;
+                    background-color: red;
+                    border-bottom: solid 3px black;
+                    text-align: right;
+                    padding-top: 45px;
+                    padding-bottom: 31.5px;
+
+                    h4 {
+                        margin: 0;
+                        margin-right: 15px;
+                        font-size: 1.8em;
+                    }
+
+                    h5 {
+                        font-size: .8em;
+                        margin: 0;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+
+        .main {
+            height: 100%;
+            width: 70%;
+            background-color: orange;
+            display: inline-flex;
+            position: relative;
+            text-align: right;
+            
+            .text-container {
+                position: absolute;
+                width: 500px;
+                right: 20px;
+                bottom: 15px;
+                z-index: 1000;
+
+                h2 {
+                    font-size: 4em;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-size: .8em;
+                    margin-right: 0;
+                    padding-left: 190px;
+                }
+            }
+
+            
+
+            .picture {
+                width: 50%;
+                height: 100%;
+                background-color: brown;
+                position: relative;
+
+                .continue-button {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background-color: aqua;
+                    padding: 10px;
+                    font-size: 1.3em;
+                }
+            }
+
+            .right-side {
+                width: 50%;
+                height: 100%;
+                background-color: violet;
+            }
+        }
+    }
+
+
+}
