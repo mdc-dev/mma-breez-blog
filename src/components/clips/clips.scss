@@ -1,0 +1,56 @@
+.clips-container {
+    height: 92vh;
+    background-color: yellowgreen;
+    display: inline-flex;
+
+    .inner, .inner-two {
+        height: 80%;
+        width: 100%;
+        padding: 40px 0 40px 80px;
+        display: inline-flex;
+        position: relative;
+
+        .main-clip {
+            height: 500px;
+            width: 500px;
+            border: 1px solid black;
+            margin-right: 10px;
+        }
+
+        .column-one, .column-two {
+            width: 250px;
+            height: 500px;
+            margin-left: 10px;
+
+            .clip {
+                height: 240px;
+                width: 240px;
+                border: 1px solid black;
+                margin-bottom: 19px;
+            }
+        }
+    }
+
+    .inner-two {
+        padding-left: 0px;
+    }
+
+    .see-more {
+        position: absolute;
+        left: 90vw;
+        top: 300px;
+        font-size: 4em;
+        z-index: 1000;
+        opacity: 50%;
+    }
+
+    .previous {
+        display: none;
+        position: absolute;
+        left: 80px;
+        top: 300px;
+        font-size: 4em;
+        z-index: 1000;
+        opacity: 50%;
+    }
+}

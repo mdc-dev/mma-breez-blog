@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './components/home/home'
 import Podcast from './components/podcast/podcast';
+import Clips from './components/clips/clips';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
       <Route exact path="/" element={<Home />} />
       <Route exact path="/podcast" element={<Podcast />}/>
+      <Route exact path="/clips" element={<Clips />}/>
       </Routes>
       </BrowserRouter>
     </div>
