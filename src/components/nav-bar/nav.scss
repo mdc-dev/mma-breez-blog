@@ -6,7 +6,7 @@
     position: relative;
 
     .left {
-        margin-left: 40px;
+        margin-left: 80px;
         display: inline;
         margin-top: 16px;
     }
@@ -23,6 +23,11 @@
             justify-content: space-between;
             list-style: none;
             margin-right: 10px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
         }
 
         .social-icons {
@@ -32,7 +37,7 @@
             margin-top: 12px;
             justify-content: space-between;
             list-style: none;
-            margin-right: 40px;
+            margin-right: 80px;
         }
 
     }

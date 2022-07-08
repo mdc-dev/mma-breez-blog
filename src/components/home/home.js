@@ -1,7 +1,7 @@
 import React from 'react'
-import './hero.scss'
+import './home.scss'
 
-const Hero = () => {
+const Home = () => {
   return (
     <div className="hero">
         <div className="left-side">
@@ -15,4 +15,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Home

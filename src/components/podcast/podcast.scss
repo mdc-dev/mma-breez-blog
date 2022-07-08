@@ -1,0 +1,61 @@
+.podcast-container {
+    height: 92vh;
+    width: 100vw;
+    display: inline-flex;
+
+    .left-side {
+        background-color: purple;
+        height: 100%;
+        width: 60%;
+        text-align: left;
+        padding-left: 80px;
+
+        .video-spot {
+            height: 300px;
+            width: 600px;
+            border: solid 1px black;
+
+        }
+
+        .info {
+            display: inline-flex;
+            justify-content: space-between;
+
+            p {
+                width: 500px;
+                margin-right: 5px;
+                font-size: .8em;
+            }
+
+            button {
+                padding: 5px;
+                font-size: 1.2em;
+                background-color: rgba(0, 0, 255, 0);
+                border: 1px solid black;
+                margin: auto
+            }
+        }
+    }
+
+    .right-side {
+        background-color: lime;
+        height: 100%;
+        width: 40%;
+        overflow-y: scroll;
+
+        ul {
+            list-style: none;
+            display: flexbox;
+            flex-direction: column;
+
+            li {
+                height: 110px;
+                width: 300px;
+                margin: auto;
+                margin-top: 15px;
+                background-color: brown;
+                border: 1px solid black;
+            }
+        }
+    }
+}
