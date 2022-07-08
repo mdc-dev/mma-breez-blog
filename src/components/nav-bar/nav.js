@@ -13,7 +13,7 @@ const Nav = () => {
                 <li className="nav-item"><a href="/podcast">Podcast</a></li>
                 <li className="nav-item"><a href="/clips">Videos</a></li>
                 <li className="nav-item"><a href="/articles">News</a></li>
-                <li className="nav-item">Contact</li>
+                <li className="nav-item"><a href="/contact">Contact</a></li>
             </ul>
             <ul className="social-icons">
                 <li className="social-item"><i class="fa-brands fa-twitter"></i></li>

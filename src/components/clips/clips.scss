@@ -1,6 +1,5 @@
 .clips-container {
     height: 92vh;
-    background-color: yellowgreen;
     display: inline-flex;
 
     .inner, .inner-two {
@@ -15,6 +14,7 @@
             width: 500px;
             border: 1px solid black;
             margin-right: 10px;
+            background-color: rgb(153, 207, 153);
         }
 
         .column-one, .column-two {
@@ -26,6 +26,7 @@
                 height: 240px;
                 width: 240px;
                 border: 1px solid black;
+                background-color: rgb(153, 207, 153);
                 margin-bottom: 19px;
             }
         }
